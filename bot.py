@@ -97,8 +97,7 @@ def reply():
         k = 0
         j = 0
     case_study()
-    for follower in tweepy.Cursor(api.followers).items():
-        follower.follow()
+
 
 while True:
     reply()
